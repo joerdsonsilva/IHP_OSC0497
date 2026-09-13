@@ -117,7 +117,7 @@
   </category>
   <category>
    <name>Act.b</name>
-   <description>5.5. Act.b : Min. Activ space or notch: 0.21 µm.</description>
+   <description>5.5. Act.b : Min. Activ (drawing + filler) space or notch: 0.21 µm.</description>
    <categories>
    </categories>
   </category>
@@ -165,7 +165,7 @@
   </category>
   <category>
    <name>Gat.b</name>
-   <description>5.8. Gat.b :Min. GatPoly space or notch: 0.18 µm.</description>
+   <description>5.8. Gat.b : Min. GatPoly (drawing + filler) space or notch: 0.18 µm.</description>
    <categories>
    </categories>
   </category>
@@ -272,6 +272,18 @@
    </categories>
   </category>
   <category>
+   <name>CntB.a</name>
+   <description>Min. and max. ContBar width = 0.16</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CntB.a1</name>
+   <description>Min. ContBar length = 0.34</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
    <name>CntB.b1</name>
    <description>5.15. CntB.b1 Min. ContBar space with common run &gt; 5.0 µm is 0.36 um</description>
    <categories>
@@ -339,7 +351,7 @@
   </category>
   <category>
    <name>M1.b</name>
-   <description>5.16. M1.b: Min. Metal1 space or notch: 0.18μm.</description>
+   <description>5.16. M1.b: Min. Metal1 (drawing + filler) space or notch: 0.18 μm.</description>
    <categories>
    </categories>
   </category>
@@ -375,7 +387,7 @@
   </category>
   <category>
    <name>M2.b</name>
-   <description>5.17. M2.b: Min. Metal2 space or notch: 0.21 μm.</description>
+   <description>5.17. M2.b: Min. Metal2 (drawing + filler) space or notch: 0.21 μm.</description>
    <categories>
    </categories>
   </category>
@@ -411,7 +423,7 @@
   </category>
   <category>
    <name>M3.b</name>
-   <description>5.17. M3.b: Min. Metal3 space or notch: 0.21 μm.</description>
+   <description>5.17. M3.b: Min. Metal3 (drawing + filler) space or notch: 0.21 μm.</description>
    <categories>
    </categories>
   </category>
@@ -447,7 +459,7 @@
   </category>
   <category>
    <name>M4.b</name>
-   <description>5.17. M4.b: Min. Metal4 space or notch: 0.21 μm.</description>
+   <description>5.17. M4.b: Min. Metal4 (drawing + filler) space or notch: 0.21 μm.</description>
    <categories>
    </categories>
   </category>
@@ -483,7 +495,7 @@
   </category>
   <category>
    <name>M5.b</name>
-   <description>5.17. M5.b: Min. Metal5 space or notch: 0.21 μm.</description>
+   <description>5.17. M5.b: Min. Metal5 (drawing + filler) space or notch: 0.21 μm.</description>
    <categories>
    </categories>
   </category>
@@ -675,7 +687,7 @@
   </category>
   <category>
    <name>TM1.b</name>
-   <description>5.22. TM1.b: Min. TopMetal1 space or notch: 1.64 μm.</description>
+   <description>5.22. TM1.b: Min. TopMetal1 (drawing + filler) space or notch: 1.64 μm.</description>
    <categories>
    </categories>
   </category>
@@ -723,7 +735,7 @@
   </category>
   <category>
    <name>TM2.b</name>
-   <description>5.25. TM2.b: Min. TopMetal2 space or notch: 2.0 μm.</description>
+   <description>5.25. TM2.b: Min. TopMetal2 (drawing + filler) space or notch: 2.0 μm.</description>
    <categories>
    </categories>
   </category>
@@ -1095,12 +1107,6 @@
    </categories>
   </category>
   <category>
-   <name>activ_pin_Offgrid</name>
-   <description>3.1 activ_pin_Offgrid: activ_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>activ_mask_Offgrid</name>
    <description>3.1 activ_mask_Offgrid: activ_mask layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -1113,12 +1119,6 @@
    </categories>
   </category>
   <category>
-   <name>activ_nofill_Offgrid</name>
-   <description>3.1 activ_nofill_Offgrid: activ_nofill layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>activ_opc_Offgrid</name>
    <description>3.1 activ_opc_Offgrid: activ_opc layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -1127,12 +1127,6 @@
   <category>
    <name>activ_iopc_Offgrid</name>
    <description>3.1 activ_iopc_Offgrid: activ_iopc layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>activ_noqrc_Offgrid</name>
-   <description>3.1 activ_noqrc_Offgrid: activ_noqrc layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1161,20 +1155,8 @@
    </categories>
   </category>
   <category>
-   <name>gatpoly_pin_Offgrid</name>
-   <description>3.1 gatpoly_pin_Offgrid: gatpoly_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>gatpoly_filler_Offgrid</name>
    <description>3.1 gatpoly_filler_Offgrid: gatpoly_filler layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>gatpoly_nofill_Offgrid</name>
-   <description>3.1 gatpoly_nofill_Offgrid: gatpoly_nofill layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1227,12 +1209,6 @@
    </categories>
   </category>
   <category>
-   <name>metal1_pin_Offgrid</name>
-   <description>3.1 metal1_pin_Offgrid: metal1_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>metal1_mask_Offgrid</name>
    <description>3.1 metal1_mask_Offgrid: metal1_mask layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -1241,12 +1217,6 @@
   <category>
    <name>metal1_filler_Offgrid</name>
    <description>3.1 metal1_filler_Offgrid: metal1_filler layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>metal1_nofill_Offgrid</name>
-   <description>3.1 metal1_nofill_Offgrid: metal1_nofill layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1293,12 +1263,6 @@
    </categories>
   </category>
   <category>
-   <name>passiv_pin_Offgrid</name>
-   <description>3.1 passiv_pin_Offgrid: passiv_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>passiv_pillar_Offgrid</name>
    <description>3.1 passiv_pillar_Offgrid: passiv_pillar layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -1323,12 +1287,6 @@
    </categories>
   </category>
   <category>
-   <name>metal2_pin_Offgrid</name>
-   <description>3.1 metal2_pin_Offgrid: metal2_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>metal2_mask_Offgrid</name>
    <description>3.1 metal2_mask_Offgrid: metal2_mask layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -1337,12 +1295,6 @@
   <category>
    <name>metal2_filler_Offgrid</name>
    <description>3.1 metal2_filler_Offgrid: metal2_filler layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>metal2_nofill_Offgrid</name>
-   <description>3.1 metal2_nofill_Offgrid: metal2_nofill layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1389,12 +1341,6 @@
    </categories>
   </category>
   <category>
-   <name>baspoly_pin_Offgrid</name>
-   <description>3.1 baspoly_pin_Offgrid: baspoly_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>psd_drw_Offgrid</name>
    <description>3.1 psd_drw_Offgrid: psd_drw layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -1419,12 +1365,6 @@
    </categories>
   </category>
   <category>
-   <name>backmetal1_pin_Offgrid</name>
-   <description>3.1 backmetal1_pin_Offgrid: backmetal1_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>backmetal1_mask_Offgrid</name>
    <description>3.1 backmetal1_mask_Offgrid: backmetal1_mask layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -1433,12 +1373,6 @@
   <category>
    <name>backmetal1_filler_Offgrid</name>
    <description>3.1 backmetal1_filler_Offgrid: backmetal1_filler layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>backmetal1_nofill_Offgrid</name>
-   <description>3.1 backmetal1_nofill_Offgrid: backmetal1_nofill layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1503,12 +1437,6 @@
    </categories>
   </category>
   <category>
-   <name>metal3_pin_Offgrid</name>
-   <description>3.1 metal3_pin_Offgrid: metal3_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>metal3_mask_Offgrid</name>
    <description>3.1 metal3_mask_Offgrid: metal3_mask layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -1517,12 +1445,6 @@
   <category>
    <name>metal3_filler_Offgrid</name>
    <description>3.1 metal3_filler_Offgrid: metal3_filler layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>metal3_nofill_Offgrid</name>
-   <description>3.1 metal3_nofill_Offgrid: metal3_nofill layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1569,20 +1491,8 @@
    </categories>
   </category>
   <category>
-   <name>nwell_pin_Offgrid</name>
-   <description>3.1 nwell_pin_Offgrid: nwell_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>nbulay_drw_Offgrid</name>
    <description>3.1 nbulay_drw_Offgrid: nbulay_drw layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>nbulay_pin_Offgrid</name>
-   <description>3.1 nbulay_pin_Offgrid: nbulay_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1595,12 +1505,6 @@
   <category>
    <name>pwell_drw_Offgrid</name>
    <description>3.1 pwell_drw_Offgrid: pwell_drw layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>pwell_pin_Offgrid</name>
-   <description>3.1 pwell_pin_Offgrid: pwell_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1665,12 +1569,6 @@
    </categories>
   </category>
   <category>
-   <name>metal4_pin_Offgrid</name>
-   <description>3.1 metal4_pin_Offgrid: metal4_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>metal4_mask_Offgrid</name>
    <description>3.1 metal4_mask_Offgrid: metal4_mask layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -1679,12 +1577,6 @@
   <category>
    <name>metal4_filler_Offgrid</name>
    <description>3.1 metal4_filler_Offgrid: metal4_filler layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>metal4_nofill_Offgrid</name>
-   <description>3.1 metal4_nofill_Offgrid: metal4_nofill layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1737,12 +1629,6 @@
    </categories>
   </category>
   <category>
-   <name>metal5_pin_Offgrid</name>
-   <description>3.1 metal5_pin_Offgrid: metal5_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>metal5_mask_Offgrid</name>
    <description>3.1 metal5_mask_Offgrid: metal5_mask layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -1751,12 +1637,6 @@
   <category>
    <name>metal5_filler_Offgrid</name>
    <description>3.1 metal5_filler_Offgrid: metal5_filler layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>metal5_nofill_Offgrid</name>
-   <description>3.1 metal5_nofill_Offgrid: metal5_nofill layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1809,20 +1689,8 @@
    </categories>
   </category>
   <category>
-   <name>exchange0_pin_Offgrid</name>
-   <description>3.1 exchange0_pin_Offgrid: exchange0_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>exchange1_drw_Offgrid</name>
    <description>3.1 exchange1_drw_Offgrid: exchange1_drw layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>exchange1_pin_Offgrid</name>
-   <description>3.1 exchange1_pin_Offgrid: exchange1_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1833,32 +1701,14 @@
    </categories>
   </category>
   <category>
-   <name>exchange2_pin_Offgrid</name>
-   <description>3.1 exchange2_pin_Offgrid: exchange2_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>exchange3_drw_Offgrid</name>
    <description>3.1 exchange3_drw_Offgrid: exchange3_drw layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
   <category>
-   <name>exchange3_pin_Offgrid</name>
-   <description>3.1 exchange3_pin_Offgrid: exchange3_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>exchange4_drw_Offgrid</name>
    <description>3.1 exchange4_drw_Offgrid: exchange4_drw layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>exchange4_pin_Offgrid</name>
-   <description>3.1 exchange4_pin_Offgrid: exchange4_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -1977,12 +1827,6 @@
    </categories>
   </category>
   <category>
-   <name>topmetal1_pin_Offgrid</name>
-   <description>3.1 topmetal1_pin_Offgrid: topmetal1_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>topmetal1_mask_Offgrid</name>
    <description>3.1 topmetal1_mask_Offgrid: topmetal1_mask layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -1991,12 +1835,6 @@
   <category>
    <name>topmetal1_filler_Offgrid</name>
    <description>3.1 topmetal1_filler_Offgrid: topmetal1_filler layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>topmetal1_nofill_Offgrid</name>
-   <description>3.1 topmetal1_nofill_Offgrid: topmetal1_nofill layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -2043,12 +1881,6 @@
    </categories>
   </category>
   <category>
-   <name>polyres_pin_Offgrid</name>
-   <description>3.1 polyres_pin_Offgrid: polyres_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>vmim_drw_Offgrid</name>
    <description>3.1 vmim_drw_Offgrid: vmim_drw layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -2079,12 +1911,6 @@
    </categories>
   </category>
   <category>
-   <name>topmetal2_pin_Offgrid</name>
-   <description>3.1 topmetal2_pin_Offgrid: topmetal2_pin layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>topmetal2_mask_Offgrid</name>
    <description>3.1 topmetal2_mask_Offgrid: topmetal2_mask layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
@@ -2093,12 +1919,6 @@
   <category>
    <name>topmetal2_filler_Offgrid</name>
    <description>3.1 topmetal2_filler_Offgrid: topmetal2_filler layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>topmetal2_nofill_Offgrid</name>
-   <description>3.1 topmetal2_nofill_Offgrid: topmetal2_nofill layer is Offgrid (All features are on a drawing grid of 5 nm)</description>
    <categories>
    </categories>
   </category>
@@ -3573,102 +3393,6 @@
    </categories>
   </category>
   <category>
-   <name>AFil.g</name>
-   <description>5.6. AFil.g: Min. global Activ density [%]: 35.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>GFil.g</name>
-   <description>5.9. GFil.g: Min. global GatPoly density [%]: 15.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M1.j</name>
-   <description>5.16. M1.j: Min. global Metal1 density [%]: 35.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M2.j</name>
-   <description>5.17. M2.j: Min. global Metal2 density [%]: 35.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M3.j</name>
-   <description>5.17. M3.j: Min. global Metal3 density [%]: 35.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M4.j</name>
-   <description>5.17. M4.j: Min. global Metal4 density [%]: 35.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>M5.j</name>
-   <description>5.17. M5.j: Min. global Metal5 density [%]: 35.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>TM1.c</name>
-   <description>5.22. TM1.c: Min. global TopMetal1 density [%]: 25.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>TM2.c</name>
-   <description>5.25. TM2.c: Min. global TopMetal2 density [%]: 25.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>Slt.i_M1</name>
-   <description>Min. metal1:slit density for any Metal plate bigger than 35µm x 35µm [%] is 6.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>Slt.i_M2</name>
-   <description>Min. metal2:slit density for any Metal plate bigger than 35µm x 35µm [%] is 6.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>Slt.i_M3</name>
-   <description>Min. metal3:slit density for any Metal plate bigger than 35µm x 35µm [%] is 6.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>Slt.i_M4</name>
-   <description>Min. metal4:slit density for any Metal plate bigger than 35µm x 35µm [%] is 6.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>Slt.i_M5</name>
-   <description>Min. metal5:slit density for any Metal plate bigger than 35µm x 35µm [%] is 6.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>Slt.i_TM1</name>
-   <description>Min. topmetal1:slit density for any Metal plate bigger than 35µm x 35µm [%] is 6.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>Slt.i_TM2</name>
-   <description>Min. topmetal2:slit density for any Metal plate bigger than 35µm x 35µm [%] is 6.00.</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
    <name>NW.a</name>
    <description>Min. NWell width = 0.62</description>
    <categories>
@@ -4097,18 +3821,6 @@
   <category>
    <name>Cnt.j</name>
    <description>Cont on GatPoly over Activ is not allowed</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>CntB.a</name>
-   <description>Min. and max. ContBar width = 0.16</description>
-   <categories>
-   </categories>
-  </category>
-  <category>
-   <name>CntB.a1</name>
-   <description>Min. ContBar length = 0.34</description>
    <categories>
    </categories>
   </category>
@@ -5309,186 +5021,316 @@
    <references>
    </references>
   </cell>
+  <cell>
+   <name>inductor2</name>
+   <variant>r0</variant>
+   <layout-name>inductor2$VAR1</layout-name>
+   <references>
+    <ref>
+     <parent>cryoVCO</parent>
+     <trans>r0 *1 1103.755,386.835</trans>
+    </ref>
+   </references>
+  </cell>
+  <cell>
+   <name>inductor2</name>
+   <variant>m90</variant>
+   <layout-name>inductor2</layout-name>
+   <references>
+    <ref>
+     <parent>cryoVCO</parent>
+     <trans>m90 *1 907.695,386.835</trans>
+    </ref>
+   </references>
+  </cell>
  </cells>
  <items>
   <item>
    <tags/>
-   <category>'AFil.g'</category>
-   <cell>cryoVCO</cell>
+   <category>'LBE.c'</category>
+   <cell>inductor2:r0</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (544.68,308.235;544.68,575.82;910.8,575.82;910.8,308.235)</value>
-    <value>text: 'Global Density Violation'</value>
-    <value>text: 'chip_bbox_um      : (544.680,308.235) - (910.800,575.820)'</value>
-    <value>text: 'chip_area_um2     : 97968.220'</value>
-    <value>text: 'layer_area_um2    : 338.422'</value>
-    <value>text: 'ratio_percent     : 0.345'</value>
-    <value>text: 'limit_percent     : 35.000 (min)'</value>
-    <value>text: 'gap_percent       : 34.655 (below limit)'</value>
-    <value>text: 'area_gap_um2      : 33950.455'</value>
+    <value>edge-pair: (-35.22,0;-85.03,49.81)|(-111.03,75.81;-111.03,49.81)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'GFil.g'</category>
-   <cell>cryoVCO</cell>
+   <category>'LBE.c'</category>
+   <cell>inductor2:r0</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (544.68,308.235;544.68,575.82;910.8,575.82;910.8,308.235)</value>
-    <value>text: 'Global Density Violation'</value>
-    <value>text: 'chip_bbox_um      : (544.680,308.235) - (910.800,575.820)'</value>
-    <value>text: 'chip_area_um2     : 97968.220'</value>
-    <value>text: 'layer_area_um2    : 149.403'</value>
-    <value>text: 'ratio_percent     : 0.153'</value>
-    <value>text: 'limit_percent     : 15.000 (min)'</value>
-    <value>text: 'gap_percent       : 14.847 (below limit)'</value>
-    <value>text: 'area_gap_um2      : 14545.830'</value>
+    <value>edge-pair: (-85.03,94.25;-85.03,120.25)|(-160.84,170.06;-111.03,120.25)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'M1.j'</category>
-   <cell>cryoVCO</cell>
+   <category>'LBE.c'</category>
+   <cell>inductor2:r0</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (544.68,308.235;544.68,575.82;910.8,575.82;910.8,308.235)</value>
-    <value>text: 'Global Density Violation'</value>
-    <value>text: 'chip_bbox_um      : (544.680,308.235) - (910.800,575.820)'</value>
-    <value>text: 'chip_area_um2     : 97968.220'</value>
-    <value>text: 'layer_area_um2    : 530.570'</value>
-    <value>text: 'ratio_percent     : 0.542'</value>
-    <value>text: 'limit_percent     : 35.000 (min)'</value>
-    <value>text: 'gap_percent       : 34.458 (below limit)'</value>
-    <value>text: 'area_gap_um2      : 33758.307'</value>
+    <value>edge-pair: (-111.03,49.81;-160.84,0)|(-85.03,49.81;-85.03,75.81)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'M2.j'</category>
-   <cell>cryoVCO</cell>
+   <category>'LBE.c'</category>
+   <cell>inductor2:r0</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (544.68,308.235;544.68,575.82;910.8,575.82;910.8,308.235)</value>
-    <value>text: 'Global Density Violation'</value>
-    <value>text: 'chip_bbox_um      : (544.680,308.235) - (910.800,575.820)'</value>
-    <value>text: 'chip_area_um2     : 97968.220'</value>
-    <value>text: 'layer_area_um2    : 659.825'</value>
-    <value>text: 'ratio_percent     : 0.674'</value>
-    <value>text: 'limit_percent     : 35.000 (min)'</value>
-    <value>text: 'gap_percent       : 34.326 (below limit)'</value>
-    <value>text: 'area_gap_um2      : 33629.052'</value>
+    <value>edge-pair: (-85.03,49.81;-85.03,120.25)|(-111.03,120.25;-111.03,49.81)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'M3.j'</category>
-   <cell>cryoVCO</cell>
+   <category>'LBE.c'</category>
+   <cell>inductor2:r0</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (544.68,308.235;544.68,575.82;910.8,575.82;910.8,308.235)</value>
-    <value>text: 'Global Density Violation'</value>
-    <value>text: 'chip_bbox_um      : (544.680,308.235) - (910.800,575.820)'</value>
-    <value>text: 'chip_area_um2     : 97968.220'</value>
-    <value>text: 'layer_area_um2    : 967.048'</value>
-    <value>text: 'ratio_percent     : 0.987'</value>
-    <value>text: 'limit_percent     : 35.000 (min)'</value>
-    <value>text: 'gap_percent       : 34.013 (below limit)'</value>
-    <value>text: 'area_gap_um2      : 33321.829'</value>
+    <value>edge-pair: (-111.03,120.25;-111.03,94.25)|(-85.03,120.25;-35.22,170.06)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'M4.j'</category>
-   <cell>cryoVCO</cell>
+   <category>'LBE.c'</category>
+   <cell>inductor2:m90</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (544.68,308.235;544.68,575.82;910.8,575.82;910.8,308.235)</value>
-    <value>text: 'Global Density Violation'</value>
-    <value>text: 'chip_bbox_um      : (544.680,308.235) - (910.800,575.820)'</value>
-    <value>text: 'chip_area_um2     : 97968.220'</value>
-    <value>text: 'layer_area_um2    : 790.520'</value>
-    <value>text: 'ratio_percent     : 0.807'</value>
-    <value>text: 'limit_percent     : 35.000 (min)'</value>
-    <value>text: 'gap_percent       : 34.193 (below limit)'</value>
-    <value>text: 'area_gap_um2      : 33498.357'</value>
+    <value>edge-pair: (-35.22,0;-85.03,49.81)|(-111.03,75.81;-111.03,49.81)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'M5.j'</category>
-   <cell>cryoVCO</cell>
+   <category>'LBE.c'</category>
+   <cell>inductor2:m90</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (544.68,308.235;544.68,575.82;910.8,575.82;910.8,308.235)</value>
-    <value>text: 'Global Density Violation'</value>
-    <value>text: 'chip_bbox_um      : (544.680,308.235) - (910.800,575.820)'</value>
-    <value>text: 'chip_area_um2     : 97968.220'</value>
-    <value>text: 'layer_area_um2    : 525.378'</value>
-    <value>text: 'ratio_percent     : 0.536'</value>
-    <value>text: 'limit_percent     : 35.000 (min)'</value>
-    <value>text: 'gap_percent       : 34.464 (below limit)'</value>
-    <value>text: 'area_gap_um2      : 33763.499'</value>
+    <value>edge-pair: (-85.03,94.25;-85.03,120.25)|(-160.84,170.06;-111.03,120.25)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'TM1.c'</category>
-   <cell>cryoVCO</cell>
+   <category>'LBE.c'</category>
+   <cell>inductor2:m90</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (544.68,308.235;544.68,575.82;910.8,575.82;910.8,308.235)</value>
-    <value>text: 'Global Density Violation'</value>
-    <value>text: 'chip_bbox_um      : (544.680,308.235) - (910.800,575.820)'</value>
-    <value>text: 'chip_area_um2     : 97968.220'</value>
-    <value>text: 'layer_area_um2    : 1382.685'</value>
-    <value>text: 'ratio_percent     : 1.411'</value>
-    <value>text: 'limit_percent     : 25.000 (min)'</value>
-    <value>text: 'gap_percent       : 23.589 (below limit)'</value>
-    <value>text: 'area_gap_um2      : 23109.370'</value>
+    <value>edge-pair: (-111.03,49.81;-160.84,0)|(-85.03,49.81;-85.03,75.81)</value>
    </values>
   </item>
   <item>
    <tags/>
-   <category>'TM2.c'</category>
-   <cell>cryoVCO</cell>
+   <category>'LBE.c'</category>
+   <cell>inductor2:m90</cell>
    <visited>false</visited>
    <multiplicity>1</multiplicity>
    <comment/>
    <image/>
    <values>
-    <value>polygon: (544.68,308.235;544.68,575.82;910.8,575.82;910.8,308.235)</value>
-    <value>text: 'Global Density Violation'</value>
-    <value>text: 'chip_bbox_um      : (544.680,308.235) - (910.800,575.820)'</value>
-    <value>text: 'chip_area_um2     : 97968.220'</value>
-    <value>text: 'layer_area_um2    : 5454.950'</value>
-    <value>text: 'ratio_percent     : 5.568'</value>
-    <value>text: 'limit_percent     : 25.000 (min)'</value>
-    <value>text: 'gap_percent       : 19.432 (below limit)'</value>
-    <value>text: 'area_gap_um2      : 19037.105'</value>
+    <value>edge-pair: (-85.03,49.81;-85.03,120.25)|(-111.03,120.25;-111.03,49.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.c'</category>
+   <cell>inductor2:m90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-111.03,120.25;-111.03,94.25)|(-85.03,120.25;-35.22,170.06)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.b2'</category>
+   <cell>inductor2:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-35.22,0;-85.03,49.81;-85.03,120.25;-35.22,170.06;35.22,170.06;85.03,120.25;85.03,49.81;35.22,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.b2'</category>
+   <cell>inductor2:m90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>polygon: (-35.22,0;-85.03,49.81;-85.03,120.25;-35.22,170.06;35.22,170.06;85.03,120.25;85.03,49.81;35.22,0)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-61.47,143.81;-35.22,170.06)/(-31.47,173.81;-73.896,173.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-35.22,170.06;35.22,170.06)/(64.985,173.81;-64.985,173.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (59.28,146;85.03,120.25)/(89.28,116;89.28,158.426)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (35.22,170.06;61.47,143.81)/(73.896,173.81;31.47,173.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (85.03,120.25;85.03,49.81)/(89.28,20.113;89.28,149.947)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:r0</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (85.03,49.81;59.28,24.06)/(89.28,11.634;89.28,54.06)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:m90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-61.47,143.81;-35.22,170.06)/(-31.47,173.81;-73.896,173.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:m90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (-35.22,170.06;35.22,170.06)/(64.985,173.81;-64.985,173.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:m90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (59.28,146;85.03,120.25)/(89.28,116;89.28,158.426)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:m90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (35.22,170.06;61.47,143.81)/(73.896,173.81;31.47,173.81)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:m90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (85.03,120.25;85.03,49.81)/(89.28,20.113;89.28,149.947)</value>
+   </values>
+  </item>
+  <item>
+   <tags/>
+   <category>'LBE.f'</category>
+   <cell>inductor2:m90</cell>
+   <visited>false</visited>
+   <multiplicity>1</multiplicity>
+   <comment/>
+   <image/>
+   <values>
+    <value>edge-pair: (85.03,49.81;59.28,24.06)/(89.28,11.634;89.28,54.06)</value>
    </values>
   </item>
  </items>
