@@ -1,3 +1,3 @@
-# OSC0497-main
+# VCO0497-main
 
 Notes for cell `OSC0497-main`.
