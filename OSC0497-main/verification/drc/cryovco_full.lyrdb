@@ -3,7 +3,7 @@
  <description>Main DRC Run Report at</description>
  <original-file/>
  <generator>drc: script='/opt/pdks/ihp-sg13g2/libs.tech/klayout/tech/drc/ihp-sg13g2.drc'</generator>
- <top-cell>cryoVCO</top-cell>
+ <top-cell>cryovco</top-cell>
  <tags>
   <tag>
    <name>waived</name>
@@ -5015,7 +5015,7 @@
  </categories>
  <cells>
   <cell>
-   <name>cryoVCO</name>
+   <name>cryovco</name>
    <variant/>
    <layout-name/>
    <references>
@@ -5027,7 +5027,7 @@
    <layout-name>inductor2$VAR1</layout-name>
    <references>
     <ref>
-     <parent>cryoVCO</parent>
+     <parent>cryovco</parent>
      <trans>r0 *1 1103.755,386.835</trans>
     </ref>
    </references>
@@ -5038,7 +5038,7 @@
    <layout-name>inductor2</layout-name>
    <references>
     <ref>
-     <parent>cryoVCO</parent>
+     <parent>cryovco</parent>
      <trans>m90 *1 907.695,386.835</trans>
     </ref>
    </references>

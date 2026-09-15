@@ -1,8 +1,9 @@
-v {xschem version=3.4.6 file_version=1.2}
+v {xschem version=3.4.8RC file_version=1.3}
 G {}
 K {}
 V {}
 S {}
+F {}
 E {}
 N 520 -290 520 -220 {
 lab=VCC}
@@ -88,23 +89,21 @@ N 300 160 300 200 {
 lab=#net1}
 N 830 160 830 200 {
 lab=#net1}
-N 570 130 830 130 {
+N 590 130 830 130 {
 lab=GND}
-N 550 200 830 200 {
+N 560 200 830 200 {
 lab=#net1}
-N 150 280 510 280 {
+N 150 280 520 280 {
 lab=ICC}
 N 80 310 80 340 {
 lab=GND}
-N 550 310 550 340 {
+N 560 310 560 340 {
 lab=GND}
 N 60 280 80 280 {
 lab=GND}
 N 60 280 60 340 {
 lab=GND}
 N 60 340 80 340 {
-lab=GND}
-N 570 280 570 340 {
 lab=GND}
 N 80 220 80 250 {
 lab=ICC}
@@ -120,36 +119,31 @@ N 80 340 300 340 {
 lab=GND}
 N 300 130 560 130 {
 lab=GND}
-N 300 340 550 340 {
-lab=GND}
 N 300 -120 300 10 {
 lab=LOP}
 N 830 20 900 20 {
 lab=LON}
 N 830 -120 830 20 {
 lab=LON}
-N 730 -140 730 -50 {
-lab=GND}
-N 560 -50 730 -50 {
-lab=GND}
-N 560 -90 560 -50 {
+N 730 -140 730 -40 {
 lab=GND}
 N 560 -40 560 130 {
 lab=GND}
 N 410 -40 560 -40 {lab=GND}
 N 410 -140 410 -40 {lab=GND}
-N 560 -50 560 -40 {
+N 560 280 590 280 {
 lab=GND}
-N 550 280 570 280 {
+N 560 340 590 340 {
 lab=GND}
-N 550 340 570 340 {
+N 590 280 590 340 {lab=GND}
+N 560 130 590 130 {
 lab=GND}
-N 570 130 570 280 {lab=GND}
-N 560 130 570 130 {
-lab=GND}
-N 550 200 550 250 {lab=#net1}
-N 300 200 550 200 {
+N 560 200 560 250 {lab=#net1}
+N 300 200 560 200 {
 lab=#net1}
+N 560 -40 730 -40 {lab=GND}
+N 590 130 590 280 {lab=GND}
+N 300 340 560 340 {lab=GND}
 C {sg13g2_pr/inductor.sym} 440 -170 0 1 {name=L1
 m=1
 value=1.54n
@@ -164,8 +158,8 @@ C {iopin.sym} 520 -290 3 0 {name=p1 lab=VCC}
 C {iopin.sym} 230 10 2 0 {name=p2 lab=LOP}
 C {iopin.sym} 300 360 1 0 {name=p3 lab=GND}
 C {sg13g2_pr/rppd.sym} 150 -170 0 1 {name=R1
-w=10.77e-6
-l=8.92e-6
+w=9.34e-6
+l=10.97e-6
 model=rppd
 body=GND
 spiceprefix=X
@@ -175,7 +169,7 @@ value="expr_eng(  ( 70.0e-6 / @w + 260.0 * ( (@b + 1)* @l + ( 1.081*( @w + 6.0e-
 }
 C {sg13g2_pr/cap_cmim.sym} 290 -170 0 1 {name=C1
 model=cap_cmim
-w=11.42e-6
+w=9.62e-6
 l=12.54e-6
 m=1
 spiceprefix=X}
@@ -190,8 +184,8 @@ s=3e-6
 d=80e-6
 nr_r=3}
 C {sg13g2_pr/rppd.sym} 990 -170 0 0 {name=R2
-w=10.77e-6
-l=8.92e-6
+w=9.34e-6
+l=10.97e-6
 model=rppd
 body=GND
 spiceprefix=X
@@ -201,7 +195,7 @@ value="expr_eng(  ( 70.0e-6 / @w + 260.0 * ( (@b + 1)* @l + ( 1.081*( @w + 6.0e-
 }
 C {sg13g2_pr/cap_cmim.sym} 840 -170 0 0 {name=C2
 model=cap_cmim
-w=11.42e-6
+w=9.62e-6
 l=12.54e-6
 m=1
 spiceprefix=X}
@@ -229,7 +223,7 @@ m=1
 model=sg13_lv_nmos
 spiceprefix=X
 }
-C {sg13g2_pr/sg13_lv_nmos.sym} 530 280 0 0 {name=M2
+C {sg13g2_pr/sg13_lv_nmos.sym} 540 280 0 0 {name=M2
 l=0.13u
 w=120u
 ng=15
