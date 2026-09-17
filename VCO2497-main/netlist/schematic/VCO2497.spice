@@ -1,5 +1,5 @@
 ** sch_path: /home/Joerdson/IHP-Open-PDK/ihp-sg13g2/libs.tech/xschem/cryovco.sch
-**.subckt cryovco VCC LOP GND VCTR ICC LON
+**.subckt VCO2497 VCC LOP GND VCTR ICC LON
 *.iopin VCC
 *.iopin LOP
 *.iopin GND
